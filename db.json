@@ -1,0 +1,77 @@
+{
+  "employees": [
+    {
+      "id": "2",
+      "firstName": "Jacki 1",
+      "lastName": "Chaniii 2",
+      "address": "London",
+      "mobile": "0988888888",
+      "age": "30",
+      "departmentId": "2"
+    },
+    {
+      "id": "3",
+      "firstName": "Susan",
+      "lastName": "cheen",
+      "address": "Paris",
+      "mobile": "0977777777",
+      "age": "35",
+      "departmentId": "2"
+    },
+    {
+      "id": "4",
+      "firstName": "Lisa",
+      "lastName": "Watsoon",
+      "address": "New York",
+      "mobile": "0933333333",
+      "age": "45",
+      "departmentId": "1"
+    },
+    {
+      "id": "5",
+      "firstName": "Nada",
+      "lastName": "Tamara",
+      "address": "Frankfort",
+      "mobile": "0911111111",
+      "age": "34",
+      "departmentId": "2"
+    },
+    {
+      "firstName": "Alaa",
+      "lastName": "Mohammad",
+      "id": "PFZ_mV5"
+    },
+    {
+      "firstName": "Alaa",
+      "lastName": "Mohammad",
+      "id": "ckpihr-"
+    },
+    {
+      "firstName": "Alaa",
+      "lastName": "Mohammad",
+      "id": "YvuK_uI"
+    },
+    {
+      "firstName": "Sandra",
+      "lastName": "Tamara",
+      "id": "KuuS5-w"
+    }
+  ],
+  "departments": [
+    {
+      "id": "1",
+      "name": "HR",
+      "description": "Human Resources"
+    },
+    {
+      "id": "2",
+      "name": "DEV",
+      "description": "Development"
+    },
+    {
+      "id": "3",
+      "name": "MKT",
+      "description": "Software marketing"
+    }
+  ]
+}
