@@ -1,6 +1,5 @@
 const axios = require("axios");
-
-const baseUrl = "http://localhost:4000/";
+const {baseUrl} = require("../constants.ts");
 
 var axiosConfig = { baseURL: baseUrl };
 const axiosInstance = axios.create(axiosConfig);
