@@ -19,32 +19,6 @@ const {
   GraphQLInt,
 } = graphql;
 
-// const employees = [
-//   {
-//     id: "1",
-//     firstName: "Jacki",
-//     lastName: "Chan",
-//     address: "hong kong",
-//     mobile: "0999999999",
-//     age: "65",
-//   },
-//   {
-//     id: "2",
-//     firstName: "Tom",
-//     lastName: "Jaksun",
-//     address: "London",
-//     mobile: "0988888888",
-//     age: "30",
-//   },
-//   {
-//     id: "3",
-//     firstName: "Susan",
-//     lastName: "cheen",
-//     address: "Paris",
-//     mobile: "0977777777",
-//     age: "35",
-//   },
-// ];
 
 const DepartmentType = new GraphQLObjectType({
   name: "Department",
@@ -61,7 +35,7 @@ const DepartmentType = new GraphQLObjectType({
     },
     //Every department can have several employee
     employees: {
-      type: GraphQLList(EmployeeType),
+      type: new GraphQLList(EmployeeType),
       resolve(obj, args) {
         return getDepartmentEmployees(obj.id);
       },
