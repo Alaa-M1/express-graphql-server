@@ -2,7 +2,7 @@
 Express GraphQL Server
 
 
-To run JSON Server (The server will run by default on http://localhost:3000/):
+To run JSON Server (The server will run by default on http://localhost:4000/):
 ```bash
 npm run json-server
 ```
